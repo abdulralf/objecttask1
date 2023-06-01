@@ -1,0 +1,75 @@
+body{
+    background-color: gray;
+}
+#box1{
+    /* width: 100%; */
+    height: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px;
+    display: none;
+ }
+ #card{
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px;
+ }
+  #username{
+    margin-top: 10px;
+    border: none;
+   background-color: none;
+  }
+ #fathername{
+    margin-top: 10px;
+   border: none;
+   background-color: none;
+ }
+ #age{
+    margin-top: 10px;
+    border: none;
+   background-color: none;
+ }
+ #profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 125px;
+}
+#input-file{
+    display: none;
+}
+.sel{
+    display: block;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    cursor: pointer;
+    transition: 0.5sec;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1:nth-child(1){
+    display: block;
+}
+/* #box1:nth-child(2){
+    display: block;
+} */
